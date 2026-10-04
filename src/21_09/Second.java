@@ -3,9 +3,9 @@ import java.util.Scanner;
 public class Second {
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner scannerX = new Scanner(System.in);
         System.out.println("Введите x:");
-        double x = scanner.nextDouble();
+        double x = scannerX.nextDouble();
         System.out.println("y = " + calculateY(x));
     }
     public static double calculateY(double x) {
