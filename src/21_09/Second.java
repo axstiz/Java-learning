@@ -6,7 +6,7 @@ public class Second {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Введите x:");
         double x = scanner.nextDouble();
-        System.out.println(calculateY(x));
+        System.out.println("y = " + calculateY(x));
     }
     public static double calculateY(double x) {
         return 4 * Math.pow(x, 3) + 23*x - 55;
