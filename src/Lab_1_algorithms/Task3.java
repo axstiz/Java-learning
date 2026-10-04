@@ -5,9 +5,9 @@ public class Task3 {
 
     public static void main(String[] args) {
 
-        Scanner scannerN = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         System.out.println("Введите количество скобочек:");
-        double n = scannerN.nextDouble();
+        double n = scanner.nextDouble();
         parentheses(n);
     }
 
