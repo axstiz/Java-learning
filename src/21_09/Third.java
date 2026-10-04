@@ -22,5 +22,4 @@ public class Third {
         return x > y ? 2 : 1;
 
     }
-
 }
