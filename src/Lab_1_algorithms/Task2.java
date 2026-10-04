@@ -1,5 +1,4 @@
-import java.util.ArrayList;
-import java.util.Arrays;
+package Lab_1_algorithms;
 
 public class Task2 {
 

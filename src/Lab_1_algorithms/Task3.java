@@ -1,3 +1,4 @@
+package Lab_1_algorithms;
 import java.util.Scanner;
 
 public class Task3 {
@@ -5,10 +6,8 @@ public class Task3 {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Введите x:");
+        System.out.println("Введите количество скобочек:");
         double n = scanner.nextDouble();
-
-        // Тест 1: -> Ожидается: 0
         parentheses(n);
     }
 

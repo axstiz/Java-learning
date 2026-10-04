@@ -1,3 +1,4 @@
+package Lab_1_algorithms;
 import java.util.ArrayList;
 import java.util.Arrays;
 
