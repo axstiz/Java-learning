@@ -1,4 +1,4 @@
-package algorithms.Lab_1_algorithms.src.main.java.Lab_1_algorithms;
+package Lab_1_algorithms;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
