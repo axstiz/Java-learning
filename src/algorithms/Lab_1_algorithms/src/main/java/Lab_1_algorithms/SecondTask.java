@@ -1,4 +1,4 @@
-package Lab_1_algorithms;
+package algorithms.Lab_1_algorithms.src.main.java.Lab_1_algorithms;
 
 public class SecondTask {
 

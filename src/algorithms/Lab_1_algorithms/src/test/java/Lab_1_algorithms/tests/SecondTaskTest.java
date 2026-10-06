@@ -1,8 +1,9 @@
-package Lab_1_algorithms.tests;
+package algorithms.Lab_1_algorithms.src.test.java.Lab_1_algorithms.tests;
 
-import Lab_1_algorithms.SecondTask;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
+
+import algorithms.Lab_1_algorithms.SecondTask;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 

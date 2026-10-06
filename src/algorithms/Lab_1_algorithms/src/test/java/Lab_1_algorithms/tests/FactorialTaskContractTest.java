@@ -1,4 +1,4 @@
-package Lab_1_algorithms.tests;
+package algorithms.Lab_1_algorithms.src.test.java.Lab_1_algorithms.tests;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

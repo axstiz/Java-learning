@@ -13,6 +13,7 @@ public class Fourth {
 
         System.out.print("Скорость: ");
         double velocity = scanner.nextDouble();
+        scanner.close();
 
         if (mass <= 0) {
             System.out.println("Ошибка: масса должна быть положительной.");
