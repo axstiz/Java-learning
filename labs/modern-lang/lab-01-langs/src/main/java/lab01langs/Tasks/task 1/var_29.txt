@@ -1,0 +1,15 @@
+int words = 'L';
+long f = 'n'
+character d = 'o'
+integer x = 323.7493710825692379
+String value = "воздушный шарик";
+integer num = "Компьютер"
+String words = 5630;
+number String = 'm';
+boolean String = 8969;
+boolean credit = 9505;
+String words = "ласточка";
+char x = 'K'
+byte array = 2641;
+character array = 9728.7816109033725569;
+byte ... = "пицца"

@@ -1,0 +1,15 @@
+duoble c = "воздушный шарик";
+duoble k = 550.921034429986213
+byte q = 'r';
+byte h = "ласточка";
+integer y = "мяч";
+long static = 6632.7105756626491271
+duoble g = 'k';
+short r = "воздушный шарик"
+String i = "радуга"
+char d = 'b';
+float java = 'y'
+bolean q = 'U'
+boolean value = 4764
+char case = "фейерверк"
+byte String = "карусель";

@@ -1,0 +1,15 @@
+char d = 7447
+number c = 8567;
+duoble f = 'v'
+bolean j = 6593.852371088241243
+long c = 'g';
+... b = 1185;
+bolean x = 4773.034414601174791996
+boolean str = 7803
+character java = 3734.31482457798923563;
+byte words = 3946;
+float static = "Солнце"
+bolean ... = "воздушный шарик";
+character text = 5177.29177672869585863
+boolean k = "ласточка";
+bolean n = 6907.3524213123253948;

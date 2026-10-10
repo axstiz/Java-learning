@@ -1,0 +1,15 @@
+float z = 2310
+byte e = 'I'
+number p = 9595;
+bolean y = "воздушный шарик";
+char void = 8627.45391764400944057
+long e = "апельсин"
+int i = 1904;
+float m = "велосипед";
+Char java = "арбуз"
+long q = 328;
+String x = "апельсин"
+String j = "гитара"
+float String = 2471
+... b = "торт"
+bolean z = "бабочка";

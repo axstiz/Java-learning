@@ -1,0 +1,15 @@
+long b = 'q';
+... a = "пицца"
+double case = 6589.0369912509777449
+boolean long = 9666
+number q = '2';
+byte a = 381.8667305932578881
+duoble int = 'A'
+number g = 'R'
+integer z = "дельфин";
+float ... = 801;
+char i = '3';
+duoble x = "Море"
+double void = 'k';
+double r = "воздушный шарик"
+long int = 'r';
