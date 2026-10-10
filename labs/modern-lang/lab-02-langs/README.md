@@ -31,3 +31,7 @@ git checkout main
 ### lab1updated/ (рефактор ЛР №1)
 
 ![Fifth_lab1updated](TaskImages/Fifth_lab1updated.png)
+
+## Выполнил
+
+Вахрушев Матвей Евгеньевич, РИ-250912
