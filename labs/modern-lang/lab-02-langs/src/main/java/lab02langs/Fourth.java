@@ -4,13 +4,41 @@ import java.util.Scanner;
 public class Fourth {
 
     public static void main(String[] args) {
-        double x1 = input("x1");
-        double y1 = input("y1");
-        double z1 = input("z1");
-        double x2 = input("x2");
-        double y2 = input("y2");
-        double z2 = input("z2");
-        System.out.println(calculateDistance(x1, y1, z1, x2, y2, z2));
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("=== Консольное приложение 'Расчет расстояния между 2мя точками' ===");
+        System.out.println("Доступные команды: info, do, exit");
+        runMenu(scanner);
+    }
+
+    public static void runMenu(Scanner scanner) {
+        while (true) {
+            System.out.print("\nВведите команду: ");
+            String command = scanner.next().trim().toLowerCase();
+
+            switch (command) {
+                case "info" -> {
+                    System.out.println("\n--- Информация о программе ---");
+                    System.out.println("Программа выводит расстояние между 2мя точками в 3D");
+                    System.out.println("Разработчик: Вахрушев Матвей Евгеньевич [РИ-250912]");
+                    System.out.println("---------------------------------------------------");
+                }
+                case "do" -> {
+                    System.out.println("\n--- Запуск программы ---");
+                    double x1 = input("x1");
+                    double y1 = input("y1");
+                    double z1 = input("z1");
+                    double x2 = input("x2");
+                    double y2 = input("y2");
+                    double z2 = input("z2");
+                    System.out.println(calculateDistance(x1, y1, z1, x2, y2, z2));
+                }
+                case "exit" -> {
+                    System.out.println("Выход из программы. Пока!");
+                    return;
+                }
+                default -> System.out.println("Ошибка: неизвестная команда! Используйте: info, do или exit.");
+            }
+        }
     }
 
     public static double input(String title) {
