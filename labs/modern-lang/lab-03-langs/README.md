@@ -1,4 +1,4 @@
-# Современные ЯП Лабораторная работа №2
+# Современные ЯП Лабораторная работа №3
 
 ## Скачать одну папку
 
@@ -6,7 +6,7 @@
 git clone --filter=blob:none --no-checkout https://github.com/axstiz/Java-learning.git
 cd Java-learning
 git sparse-checkout init --no-cone
-git sparse-checkout set '/labs/modern-lang/lab-02-langs/'
+git sparse-checkout set '/labs/modern-lang/lab-03-langs/'
 git checkout main
 ```
 
@@ -28,9 +28,9 @@ git checkout main
 
 ![Fourth](TaskImages/Fourth.png)
 
-### lab1updated/ (рефактор ЛР №1)
+### lab2updated/ (рефактор ЛР №2)
 
-![Fifth_lab1updated](TaskImages/Fifth_lab1updated.png)
+![Fifth_lab1updated](TaskImages/Fifth_lab2updated.png)
 
 ## Выполнил
 
