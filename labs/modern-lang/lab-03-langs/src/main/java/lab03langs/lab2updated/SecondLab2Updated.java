@@ -7,7 +7,7 @@ public class SecondLab2Updated {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("=== Консольное приложение 'Расчет суммы последовательности 1.1 - 1.2 + 1.3 -... длины N (без условных операторов)' ===");
-        System.out.println("Доступные команды: info, do, exit");
+        System.out.println("Доступные команды: info, do, check, exit");
         runMenu(scanner);
     }
 
@@ -27,6 +27,10 @@ public class SecondLab2Updated {
                     System.out.println("\n--- Запуск программы ---");
                     long n = input("N");
                     System.out.printf("sum: %.1f%n", calculateSum(n));
+                }
+                case "check" -> {
+                    System.out.println("\n--- Запуск тестирования ---");
+                    check();
                 }
                 case "exit" -> {
                     System.out.println("Выход из программы. Пока!");
@@ -66,4 +70,9 @@ public class SecondLab2Updated {
         return sum;
     }
 
+    public static void check() {
+        for (long n = 1; n <= 100; n++) {
+            System.out.printf("sum for %d: %.1f%n", n, calculateSum(n));
+        }
+    }
 }

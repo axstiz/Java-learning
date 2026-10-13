@@ -1,6 +1,7 @@
 package lab03langs.lab2updated;
 
 import java.util.Scanner;
+import java.util.Arrays;
 
 public class ThirdLab2Updated {
 
@@ -26,14 +27,16 @@ public class ThirdLab2Updated {
                 case "do" -> {
                     System.out.println("\n--- Запуск программы ---");
                     long n = input("N");
-                    printDigits(n);
+                    int[] result = genDigits(n);
+                    System.out.print("Digits: " + java.util.Arrays.toString(result));
                 }
                 case "check" -> {
                     System.out.println("\n--- Запуск проверки ---");
                     for (long n = 1; n < 1000000000; n = n * 11 + 2) {
-                        System.out.println("n = " + n);
-                        printDigits(n);
-                        System.out.println();
+                        System.out.printf("n = %d%n", n);
+                        int[] result = genDigits(n);
+                        System.out.print("Digits: " + java.util.Arrays.toString(result));
+                        System.out.println("\n------------------------------------");
                     }
                 }
                 case "exit" -> {
@@ -65,12 +68,16 @@ public class ThirdLab2Updated {
         return value;
     }
 
-    public static void printDigits(long n) {
-        System.out.printf("Digits:%n-------%n");
+    public static int[] genDigits(long n) {
+        int len = (n == 0) ? 1 : 1 + (int)Math.log10(n);
+        int[] digits = new int[len];
+        int i = 0;
         while (n > 0) {
-            System.out.println(n%10);
+            digits[i] = (int)n%10;
             n /= 10;
+            i++;
         }
+        return digits;
     }
 
 }

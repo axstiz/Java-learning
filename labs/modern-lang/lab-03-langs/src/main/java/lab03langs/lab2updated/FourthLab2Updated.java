@@ -25,13 +25,7 @@ public class FourthLab2Updated {
                 }
                 case "do" -> {
                     System.out.println("\n--- Запуск программы ---");
-                    double x1 = input("x1");
-                    double y1 = input("y1");
-                    double z1 = input("z1");
-                    double x2 = input("x2");
-                    double y2 = input("y2");
-                    double z2 = input("z2");
-                    System.out.println(calculateDistance(x1, y1, z1, x2, y2, z2));
+                    System.out.println(calculateDistance(inputPoint("point1"), inputPoint("point2")));
                 }
                 case "exit" -> {
                     System.out.println("Выход из программы. Пока!");
@@ -58,8 +52,20 @@ public class FourthLab2Updated {
         return value;
     }
 
-    public static double calculateDistance(double x1, double y1, double z1, double x2, double y2, double z2) {
-        return Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2) + Math.pow(z2 - z1, 2));
+    public static double[] inputPoint(String title) {
+        double x = input("x for " + title);
+        double y = input("y for " + title);
+        double z = input("z for " + title);
+        double[] point = new double[] {x, y, z};
+        return point;
+    }
+
+    public static double calculateDistance(double[] point1, double[] point2) {
+        double sum = 0;
+        for (int i = 0; i < 3; i++) {
+            sum += Math.pow(point1[i] - point2[i], 2);
+        }
+        return Math.sqrt(sum);
     }
 
 }
