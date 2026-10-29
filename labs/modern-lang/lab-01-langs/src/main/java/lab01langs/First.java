@@ -8,7 +8,7 @@ public class First {
         String c = "Цветок";
         String te = "шахматы";
         double ch = 2772.3749726591189214;
-        String text = "велосипед";
+        String text = "велосипед" + array;
         char hehe = 'b';
         String d = "Компьютер";
         double yt = 4047.6937071833308311;
