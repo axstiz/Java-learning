@@ -24,3 +24,7 @@ build/
 Thumbs.db
 
 .opencode
+
+# Материалы ЛР-2 (шаблоны преподавателя)
+labs/algorithms/lab-02-algs/algo-linear-sorting-master.zip
+labs/algorithms/lab-02-algs/algo-linear-sorting/
